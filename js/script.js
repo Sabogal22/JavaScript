@@ -1,4 +1,10 @@
-Swal.fire({
+var estudiante;
+var notauno;
+var notados;
+
+estudiante=prompt("Por Favor Digite su Nombre")
+
+/*Swal.fire({
     title: '<strong>HTML <u>example</u></strong>',
     icon: 'info',
     html:
@@ -14,4 +20,4 @@ Swal.fire({
     cancelButtonText:
       '<i class="fa fa-thumbs-down"></i>',
     cancelButtonAriaLabel: 'Thumbs down'
-  })
+  })*/
