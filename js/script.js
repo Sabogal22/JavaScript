@@ -2,7 +2,8 @@ var estudiante;
 var notauno;
 var notados;
 
-estudiante=prompt("Por Favor Digite su Nombre")
+estudiante=prompt("Por Favor Digite su Nombre");
+notauno=parseFloat(prompt("Digite la Primera Nota"));
 
 /*Swal.fire({
     title: '<strong>HTML <u>example</u></strong>',
