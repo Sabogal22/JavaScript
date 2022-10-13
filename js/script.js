@@ -4,10 +4,10 @@ var notados;
 
 estudiante=prompt("Por Favor Digite su Nombre");
 notauno=parseFloat(prompt("Digite la Primera Nota"));
-notauno=parseFloat(prompt("Digite la Segunda Nota"));
+notados=parseFloat(prompt("Digite la Segunda Nota"));
 
 promedio=(notauno + notados)/2;
-alert(promedio);
+alert("Su Promedio es:"+ promedio);
 
 /*Swal.fire({
     title: '<strong>HTML <u>example</u></strong>',
